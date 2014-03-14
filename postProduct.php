@@ -8,7 +8,7 @@ set_time_limit(0);
  * 上传商品到速卖通
  */
 include_once('processData.php');
-include_once('upimages.php');
+include_once 'classes/upimages.php';
 $successId = array();
 echo '上传条数：'.count($products).'<br>';
 for ($j = 1; $j < count($products); $j++) {

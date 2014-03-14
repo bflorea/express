@@ -29,3 +29,5 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
 $result = curl_exec($ch);
 curl_close($ch);
+file_put_contents('data/accessToken', $result['access_token']);
+print_r($result);
