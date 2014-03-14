@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!-- 获取类别信息 -->
+    <getCateInfo>
+        <api>api.getPostCategoryById</api>
+        <data>
+            <cateId>380210</cateId>
+        </data>
+    </getCateInfo>
+    <!-- 获取类别属性 -->
+    <getAttrByCid>
+        <api>api.getAttributesResultByCateId</api>
+        <data>
+            <cateId>200000181</cateId>
+        </data>
+    </getAttrByCid>
+    <!-- 获取运费模版列表 -->
+    <freightTemplate>
+        <api>api.listFreightTemplate</api>
+        <data></data>
+    </freightTemplate>
+</root>
